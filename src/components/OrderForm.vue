@@ -70,14 +70,6 @@ export default {
   name: "OrderForm",
   data() {
     return {
-      rules: {
-        age: [
-          val => val < 10 || `I don't believe you!`,
-        ],
-        animal: [val => (val || '').length > 0 || 'This field is required'],
-        name: [val => (val || '').length > 0 || 'This field is required'],
-      },
-
       date: null,
       name: null,
       phone: null,
